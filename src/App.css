@@ -1,0 +1,35 @@
+/* src/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  
